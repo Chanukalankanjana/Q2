@@ -1,0 +1,9 @@
+A. SELECT * FROM Student;
+
+B. SELECT Student.ID, Name, City FROM Student WHERE City='Kandy';
+
+C. UPDATE Student SET  City= 'Galle' WHERE StudentID = 4;
+
+D. Select Student.StudentID,Student.Name,Student.City,Student.CourseID,Course.Name
+   From dbo.Student inner join dbo.Course 
+   ON dbo.Student.CourseID=dbo.Course.CourseID;
